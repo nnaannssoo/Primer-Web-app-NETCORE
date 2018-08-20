@@ -1,0 +1,11 @@
+services:
+  webapplicationnancy:
+    build:
+      context: C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy
+      dockerfile: WebApplicationNancy/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: webapplicationnancy
+    ports:
+    - 80/tcp
+version: '3.0'

@@ -1,0 +1,11 @@
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\bin\Debug\netcoreapp2.0\WebApplicationNancy.deps.json
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\bin\Debug\netcoreapp2.0\WebApplicationNancy.runtimeconfig.json
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\bin\Debug\netcoreapp2.0\WebApplicationNancy.runtimeconfig.dev.json
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\bin\Debug\netcoreapp2.0\WebApplicationNancy.dll
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\bin\Debug\netcoreapp2.0\WebApplicationNancy.pdb
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\obj\Debug\netcoreapp2.0\WebApplicationNancy.csprojResolveAssemblyReference.cache
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\obj\Debug\netcoreapp2.0\WebApplicationNancy.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\obj\Debug\netcoreapp2.0\WebApplicationNancy.AssemblyInfoInputs.cache
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\obj\Debug\netcoreapp2.0\WebApplicationNancy.AssemblyInfo.cs
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\obj\Debug\netcoreapp2.0\WebApplicationNancy.dll
+C:\Users\gabriel\Documents\TEST_nancy\WebApplicationNancy\WebApplicationNancy\obj\Debug\netcoreapp2.0\WebApplicationNancy.pdb

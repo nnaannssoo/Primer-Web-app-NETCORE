@@ -1,0 +1,29 @@
+﻿
+@{
+    var algo = ViewData["promedio"];
+ 
+
+}
+<h2>Test</h2>
+<table name="tablita" id="tablita">
+    <tr>
+        <td><strong>Mes</strong></td>
+        <td><strong>Dias</strong></td>
+    </tr>
+    <tr>
+
+        @foreach (var item in ViewData["info"] as List<Mes>)
+        {
+            
+        <tr>
+            <td>@item.nombre</td>
+            <td>@item.dias</td>
+        </tr>
+    }
+
+        </tr>
+    </table>
+    <p>
+
+       Promedio = @algo;
+    </p>

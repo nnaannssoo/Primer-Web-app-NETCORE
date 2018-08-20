@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  webapplicationnancy:
+    image: webapplicationnancy
+    build:
+      context: .
+      dockerfile: WebApplicationNancy/Dockerfile
