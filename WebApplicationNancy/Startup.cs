@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using WebApplicationNancy.Models;
 
 namespace WebApplicationNancy
 {
@@ -22,6 +24,9 @@ namespace WebApplicationNancy
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddDbContext<PersonasContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("PersonasContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +48,7 @@ namespace WebApplicationNancy
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=test}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

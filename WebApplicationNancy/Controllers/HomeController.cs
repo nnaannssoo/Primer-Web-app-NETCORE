@@ -38,7 +38,7 @@ namespace WebApplicationNancy.Controllers
         {
             ViewData["Message"] = "Welcome to index";
 
-            return View(lista);
+            return View();
         }
 
         public IActionResult About()

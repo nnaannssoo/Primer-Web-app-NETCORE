@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "3aa157edd13f3dfb88e077ecfffc6ca8340a6db9"
+    "signature": "f04aab5e82df41b7fb299c685fb9eaf094e7902c"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "WebApplicationNancy/1.0.0": {
         "dependencies": {
+          "EntityFramework.SqlServerCompact": "6.2.0",
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2"
@@ -32,6 +33,14 @@
         },
         "compile": {
           "WebApplicationNancy.dll": {}
+        }
+      },
+      "EntityFramework.SqlServerCompact/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServerCompact.dll": {}
+        },
+        "compile": {
+          "lib/net45/EntityFramework.SqlServerCompact.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4236,6 +4245,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EntityFramework.SqlServerCompact/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pGPxxPUCsckMg/UP/EOfklanNCCGIQvJzMBt56UnjwutzlVni7dJL92LFeQR2foI+O2E4NjlCaWWHXxGI7gpQw==",
+      "path": "entityframework.sqlservercompact/6.2.0",
+      "hashPath": "entityframework.sqlservercompact.6.2.0.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
